@@ -1,0 +1,7 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:19:13:writeCharShell	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:26:13:CMD_a55_sleep	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:32:13:CMD_a55_wake	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:38:13:CMD_cls	32	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:45:13:CMD_date	120	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:65:13:CMD_hello	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c:70:6:setup_dynamic_shell	8	static

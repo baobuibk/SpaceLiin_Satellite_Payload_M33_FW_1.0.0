@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-.-debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "M0_App",
+					"jsonFile" : "directory-M0_App-debug-193c7d8aa26a0ec67dd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "M1_SysApp",
+					"jsonFile" : "directory-M1_SysApp-debug-6c9ed6bb9d417fffa0ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "M2_BSP",
+					"jsonFile" : "directory-M2_BSP-debug-f9c63bc977c0ce150ae8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
+				},
+				{
+					"build" : "M3_Devices",
+					"jsonFile" : "directory-M3_Devices-debug-218cde4d41d840598cf8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M3_Devices"
+				},
+				{
+					"build" : "M4_Middlewares",
+					"jsonFile" : "directory-M4_Middlewares-debug-c16634a313421a6da2b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M4_Middlewares"
+				},
+				{
+					"build" : "M5_Utils",
+					"jsonFile" : "directory-M5_Utils-debug-f638d2ad7c6a35027063.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M5_Utils",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "M6_Tools",
+					"jsonFile" : "directory-M6_Tools-debug-ab8df7ed859c0a50c7e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M6_Tools"
+				},
+				{
+					"build" : "M7_Tests",
+					"jsonFile" : "directory-M7_Tests-debug-be9483b9b50dbc0c23d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M7_Tests"
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "payexp_m33",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "M0_App::@3c5f802263a7726b2aea",
+					"jsonFile" : "target-M0_App-debug-37110e6c054eb480dd5b.json",
+					"name" : "M0_App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "M1_SysApp::@cc8d073ca17c942e8d85",
+					"jsonFile" : "target-M1_SysApp-debug-cb40226857460a085401.json",
+					"name" : "M1_SysApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "M5_Utils::@10c15188ed875b4781a5",
+					"jsonFile" : "target-M5_Utils-debug-328c7be9cf4fc7ab499c.json",
+					"name" : "M5_Utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "payexp_m33.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-payexp_m33.elf-debug-fefe7994b1bf79697e4f.json",
+					"name" : "payexp_m33.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug",
+		"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

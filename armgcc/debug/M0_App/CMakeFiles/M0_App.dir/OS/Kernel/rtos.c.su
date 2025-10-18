@@ -1,0 +1,7 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:13:6:EXP_RTOS_Start	8	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:21:6:vApplicationStackOverflowHook	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:26:6:vApplicationMallocFailedHook	4	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:32:6:vApplicationIdleHook	4	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:38:6:vApplicationTickHook	4	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:46:6:vApplicationGetIdleTaskMemory	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c:58:6:vApplicationGetTimerTaskMemory	24	static

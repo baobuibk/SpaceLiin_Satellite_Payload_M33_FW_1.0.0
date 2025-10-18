@@ -1,0 +1,4 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_iomuxc.h:700:20:IOMUXC_SetPinMux	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_iomuxc.h:728:20:IOMUXC_SetPinConfig	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/Core/Src/pin_mux.c:32:6:BOARD_InitBootPins	8	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/Core/Src/pin_mux.c:53:6:BOARD_InitPins	16	static

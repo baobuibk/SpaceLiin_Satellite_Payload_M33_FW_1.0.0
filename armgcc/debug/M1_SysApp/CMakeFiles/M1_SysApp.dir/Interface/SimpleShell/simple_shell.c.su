@@ -1,0 +1,7 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:46:12:Compare_Commands	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:50:6:Shell_Init	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:58:6:Shell_AddCommand	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:71:13:Shell_Process	96	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:105:6:Shell_ReceiveChar	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:152:6:Shell_WriteString	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c:161:13:CMD_Help	64	static

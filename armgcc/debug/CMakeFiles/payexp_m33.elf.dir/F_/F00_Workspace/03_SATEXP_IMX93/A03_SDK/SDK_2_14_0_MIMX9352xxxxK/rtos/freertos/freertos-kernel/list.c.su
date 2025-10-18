@@ -1,0 +1,5 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c:50:6:vListInitialise	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c:86:6:vListInitialiseItem	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c:98:6:vListInsertEnd	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c:128:6:vListInsert	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c:199:13:uxListRemove	24	static

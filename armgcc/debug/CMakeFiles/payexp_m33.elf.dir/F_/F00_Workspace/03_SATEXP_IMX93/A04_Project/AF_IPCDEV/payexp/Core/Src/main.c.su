@@ -1,0 +1,10 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/CMSIS/Core/Include/core_cm33.h:2378:22:__NVIC_EnableIRQ	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/CMSIS/Core/Include/core_cm33.h:2575:22:__NVIC_SetPriority	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_clock.h:1316:20:CLOCK_ControlGate	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_clock.h:1329:20:CLOCK_EnableClock	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_common_arm.h:603:24:EnableIRQWithPriority	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_lptmr.h:183:20:LPTMR_EnableInterrupts	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_lptmr.h:295:20:LPTMR_SetTimerPeriod	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_lptmr.h:339:20:LPTMR_StartTimer	24	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/Core/Src/main.c:26:5:main	8	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/Core/Src/main.c:59:13:IMX_LPTMP1_Init	16	static
