@@ -25,7 +25,7 @@ extern "C" {
 #define SHELL_NEWLINE "\r\n"
 #define SHELL_INITATION "m33@IMX93:~ $ "
 #define SHELL_MAX_ARGS 4
-#define SHELL_MAX_COMMANDS 10
+#define SHELL_MAX_COMMANDS 16
 #define SHELL_BUFFER_SIZE 32
 //#define DEBUG_SHELL
 

@@ -54,11 +54,35 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M0_App"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M1_SysApp"
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M3_Devices"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M4_Middlewares"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M5_Utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M6_Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M7_Tests"
 				},
 				{
 					"backtrace" : 2,
@@ -76,7 +100,8 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -94,12 +119,19 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M5_Utils/CRC/crc16_xmodem.c",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

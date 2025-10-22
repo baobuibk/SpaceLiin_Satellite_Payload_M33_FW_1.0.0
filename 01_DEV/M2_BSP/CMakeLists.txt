@@ -11,6 +11,7 @@ if(SRC_FILES)
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${PROJECT_GLOBAL_INCLUDE_DIRS}
     )
+    target_link_libraries(${TARGET_NAME} PUBLIC exp_sdk_common)
 else()
     message(WARNING "${TARGET_NAME} has no source files.")
     add_library(${TARGET_NAME} INTERFACE)

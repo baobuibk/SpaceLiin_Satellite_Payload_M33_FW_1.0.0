@@ -33,6 +33,9 @@
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/middleware_freertos-kernel.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/middleware_freertos-kernel_cm33_non_trustzone.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/middleware_freertos-kernel_template.cmake",
+			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/middleware_multicore_rpmsg_lite.cmake",
+			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/middleware_multicore_rpmsg_lite_freertos.cmake",
+			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/middleware_multicore_rpmsg_lite_imx93_m33_freertos.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/utility_debug_console.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/serial_manager/component_serial_manager_uart.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/device_MIMX9352_startup.MIMX9352.cmake",
@@ -40,6 +43,7 @@
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_common.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_lptmr.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_lpuart.MIMX9352.cmake",
+			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_mu1.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_rgpio.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/driver_sentinel.MIMX9352.cmake",
 			"F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/middleware_freertos-kernel_heap_4.cmake",
@@ -60,25 +64,25 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 109,
+				"line" : 115,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 128,
+				"line" : 134,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 130,
+				"line" : 136,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 132,
+				"line" : 138,
 				"parent" : 0
 			},
 			{
@@ -304,7 +308,7 @@
 			{
 				"command" : 5,
 				"file" : 3,
-				"line" : 1148,
+				"line" : 1129,
 				"parent" : 8
 			},
 			{
@@ -320,8 +324,74 @@
 			{
 				"command" : 3,
 				"file" : 12,
-				"line" : 13,
+				"line" : 15,
 				"parent" : 48
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1132,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 50
+			},
+			{
+				"file" : 13,
+				"parent" : 51
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 13,
+				"parent" : 52
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1135,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 54
+			},
+			{
+				"file" : 14,
+				"parent" : 55
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 12,
+				"parent" : 56
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1148,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 58
+			},
+			{
+				"file" : 15,
+				"parent" : 59
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 13,
+				"parent" : 60
 			},
 			{
 				"command" : 7,
@@ -351,17 +421,17 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 53
+				"parent" : 65
 			},
 			{
-				"file" : 13,
-				"parent" : 54
+				"file" : 16,
+				"parent" : 66
 			},
 			{
 				"command" : 7,
-				"file" : 13,
+				"file" : 16,
 				"line" : 8,
-				"parent" : 55
+				"parent" : 67
 			},
 			{
 				"command" : 7,
@@ -379,17 +449,17 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 58
+				"parent" : 70
 			},
 			{
-				"file" : 14,
-				"parent" : 59
+				"file" : 17,
+				"parent" : 71
 			},
 			{
 				"command" : 7,
-				"file" : 14,
+				"file" : 17,
 				"line" : 7,
-				"parent" : 60
+				"parent" : 72
 			},
 			{
 				"command" : 7,
@@ -407,17 +477,17 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 63
+				"parent" : 75
 			},
 			{
-				"file" : 15,
-				"parent" : 64
+				"file" : 18,
+				"parent" : 76
 			},
 			{
 				"command" : 7,
-				"file" : 15,
+				"file" : 18,
 				"line" : 8,
-				"parent" : 65
+				"parent" : 77
 			},
 			{
 				"command" : 5,
@@ -429,94 +499,28 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 67
-			},
-			{
-				"file" : 16,
-				"parent" : 68
-			},
-			{
-				"command" : 7,
-				"file" : 16,
-				"line" : 8,
-				"parent" : 69
-			},
-			{
-				"command" : 7,
-				"file" : 16,
-				"line" : 13,
-				"parent" : 69
-			},
-			{
-				"command" : 5,
-				"file" : 3,
-				"line" : 1030,
-				"parent" : 8
-			},
-			{
-				"command" : 4,
-				"file" : 2,
-				"line" : 103,
-				"parent" : 72
-			},
-			{
-				"file" : 17,
-				"parent" : 73
-			},
-			{
-				"command" : 7,
-				"file" : 17,
-				"line" : 8,
-				"parent" : 74
-			},
-			{
-				"command" : 5,
-				"file" : 3,
-				"line" : 1031,
-				"parent" : 8
-			},
-			{
-				"command" : 4,
-				"file" : 2,
-				"line" : 103,
-				"parent" : 76
-			},
-			{
-				"file" : 18,
-				"parent" : 77
-			},
-			{
-				"command" : 7,
-				"file" : 18,
-				"line" : 8,
-				"parent" : 78
-			},
-			{
-				"command" : 5,
-				"file" : 3,
-				"line" : 1060,
-				"parent" : 8
-			},
-			{
-				"command" : 4,
-				"file" : 2,
-				"line" : 103,
-				"parent" : 80
+				"parent" : 79
 			},
 			{
 				"file" : 19,
+				"parent" : 80
+			},
+			{
+				"command" : 7,
+				"file" : 19,
+				"line" : 8,
 				"parent" : 81
 			},
 			{
 				"command" : 7,
 				"file" : 19,
-				"line" : 8,
-				"parent" : 82
+				"line" : 13,
+				"parent" : 81
 			},
 			{
 				"command" : 5,
 				"file" : 3,
-				"line" : 1064,
+				"line" : 1030,
 				"parent" : 8
 			},
 			{
@@ -534,6 +538,94 @@
 				"file" : 20,
 				"line" : 8,
 				"parent" : 86
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1031,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 88
+			},
+			{
+				"file" : 21,
+				"parent" : 89
+			},
+			{
+				"command" : 7,
+				"file" : 21,
+				"line" : 8,
+				"parent" : 90
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1038,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 92
+			},
+			{
+				"file" : 22,
+				"parent" : 93
+			},
+			{
+				"command" : 7,
+				"file" : 22,
+				"line" : 8,
+				"parent" : 94
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1060,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 96
+			},
+			{
+				"file" : 23,
+				"parent" : 97
+			},
+			{
+				"command" : 7,
+				"file" : 23,
+				"line" : 8,
+				"parent" : 98
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1064,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 100
+			},
+			{
+				"file" : 24,
+				"parent" : 101
+			},
+			{
+				"command" : 7,
+				"file" : 24,
+				"line" : 8,
+				"parent" : 102
 			},
 			{
 				"command" : 7,
@@ -557,23 +649,41 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 90
+				"parent" : 106
 			},
 			{
-				"file" : 21,
-				"parent" : 91
+				"file" : 25,
+				"parent" : 107
 			},
 			{
 				"command" : 7,
-				"file" : 21,
+				"file" : 25,
 				"line" : 8,
-				"parent" : 92
+				"parent" : 108
 			},
 			{
 				"command" : 7,
 				"file" : 2,
 				"line" : 128,
 				"parent" : 44
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 8,
+				"parent" : 48
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 7,
+				"parent" : 52
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 8,
+				"parent" : 56
 			},
 			{
 				"command" : 5,
@@ -585,23 +695,23 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 95
+				"parent" : 114
 			},
 			{
-				"file" : 22,
-				"parent" : 96
+				"file" : 26,
+				"parent" : 115
 			},
 			{
 				"command" : 7,
-				"file" : 22,
+				"file" : 26,
 				"line" : 7,
-				"parent" : 97
+				"parent" : 116
 			},
 			{
 				"command" : 7,
-				"file" : 22,
+				"file" : 26,
 				"line" : 13,
-				"parent" : 97
+				"parent" : 116
 			},
 			{
 				"command" : 5,
@@ -613,23 +723,23 @@
 				"command" : 4,
 				"file" : 2,
 				"line" : 103,
-				"parent" : 100
+				"parent" : 119
 			},
 			{
-				"file" : 23,
-				"parent" : 101
-			},
-			{
-				"command" : 7,
-				"file" : 23,
-				"line" : 8,
-				"parent" : 102
+				"file" : 27,
+				"parent" : 120
 			},
 			{
 				"command" : 7,
-				"file" : 12,
+				"file" : 27,
 				"line" : 8,
-				"parent" : 48
+				"parent" : 121
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 8,
+				"parent" : 60
 			}
 		]
 	},
@@ -694,10 +804,22 @@
 				},
 				{
 					"backtrace" : 49,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 61,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/str"
 				},
 				{
-					"backtrace" : 49,
+					"backtrace" : 61,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/debug_console"
 				},
 				{
@@ -706,11 +828,35 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M0_App"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M1_SysApp"
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M3_Devices"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M4_Middlewares"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M5_Utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M6_Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M7_Tests"
 				},
 				{
 					"backtrace" : 2,
@@ -754,7 +900,27 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP/rpmsg"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
 				},
 				{
 					"backtrace" : 2,
@@ -792,10 +958,18 @@
 				27,
 				28,
 				29,
-				31,
+				30,
+				32,
 				33,
 				34,
-				35
+				35,
+				36,
+				37,
+				38,
+				39,
+				41,
+				42,
+				43
 			]
 		},
 		{
@@ -857,10 +1031,22 @@
 				},
 				{
 					"backtrace" : 49,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 61,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/str"
 				},
 				{
-					"backtrace" : 49,
+					"backtrace" : 61,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/debug_console"
 				},
 				{
@@ -869,11 +1055,35 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M0_App"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M1_SysApp"
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M3_Devices"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M4_Middlewares"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M5_Utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M6_Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M7_Tests"
 				},
 				{
 					"backtrace" : 2,
@@ -917,7 +1127,27 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP/rpmsg"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
 				},
 				{
 					"backtrace" : 2,
@@ -928,7 +1158,7 @@
 			"sourceIndexes" : 
 			[
 				11,
-				32
+				40
 			]
 		}
 	],
@@ -941,6 +1171,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "M1_SysApp::@cc8d073ca17c942e8d85"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "M2_BSP::@c7c7e4dc1c2dfa017d26"
 		},
 		{
 			"backtrace" : 2,
@@ -968,6 +1202,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "F:\\F00_Workspace\\03_SATEXP_IMX93\\A04_Project\\AF_IPCDEV\\payexp\\02_OUTPUT\\debug\\M1_SysApp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\F00_Workspace\\03_SATEXP_IMX93\\A04_Project\\AF_IPCDEV\\payexp\\02_OUTPUT\\debug\\M2_BSP",
 				"role" : "libraries"
 			},
 			{
@@ -1034,10 +1273,18 @@
 				27,
 				28,
 				29,
-				31,
+				30,
+				32,
 				33,
 				34,
-				35
+				35,
+				36,
+				37,
+				38,
+				39,
+				41,
+				42,
+				43
 			]
 		},
 		{
@@ -1045,7 +1292,7 @@
 			"sourceIndexes" : 
 			[
 				5,
-				30
+				31
 			]
 		},
 		{
@@ -1053,7 +1300,7 @@
 			"sourceIndexes" : 
 			[
 				11,
-				32
+				40
 			]
 		}
 	],
@@ -1095,180 +1342,228 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 50,
+			"backtrace" : 62,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/lists/fsl_component_generic_list.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 51,
+			"backtrace" : 63,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/uart/fsl_adapter_lpuart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 52,
+			"backtrace" : 64,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/serial_manager/fsl_component_serial_manager.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 56,
+			"backtrace" : 68,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/serial_manager/fsl_component_serial_port_uart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 57,
+			"backtrace" : 69,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/system_MIMX9352_cm33.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 61,
+			"backtrace" : 73,
 			"compileGroupIndex" : 1,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/gcc/startup_MIMX9352_cm33.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 62,
+			"backtrace" : 74,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_cache.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 66,
+			"backtrace" : 78,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_clock.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 70,
+			"backtrace" : 82,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_common.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 71,
+			"backtrace" : 83,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_common_arm.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 75,
+			"backtrace" : 87,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_lptmr.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 79,
+			"backtrace" : 91,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_lpuart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 83,
+			"backtrace" : 95,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_mu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_rgpio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 87,
+			"backtrace" : 103,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers/fsl_sentinel.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/croutine.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/event_groups.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/list.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/queue.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/stream_buffer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/tasks.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 104,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/timers.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 89,
+			"backtrace" : 105,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 89,
+			"backtrace" : 105,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 109,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 94,
+			"backtrace" : 110,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/template/ARM_CM33/FreeRTOSConfig.h",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/common/llist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_lite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_ns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/virtio/virtqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/environment/rpmsg_env_freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/platform/imx93_m33/rpmsg_platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/fsl_sbrk.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 99,
+			"backtrace" : 118,
 			"compileGroupIndex" : 1,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/fsl_memcpy.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 122,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/fsl_assert.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 104,
+			"backtrace" : 123,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/str/fsl_str.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 104,
+			"backtrace" : 123,
 			"compileGroupIndex" : 0,
 			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/debug_console/fsl_debug_console.c",
 			"sourceGroupIndex" : 0

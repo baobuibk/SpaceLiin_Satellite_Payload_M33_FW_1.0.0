@@ -11,6 +11,10 @@ target_include_directories(exp_sdk_common INTERFACE
     ${SDK_ROOT_PATH}/components/uart
     ${SDK_ROOT_PATH}/components/lists
     ${SDK_ROOT_PATH}/rtos/freertos/freertos-kernel/include
+    ${SDK_ROOT_PATH}/middleware/multicore/rpmsg_lite/lib/include
+    ${SDK_ROOT_PATH}/middleware/multicore/rpmsg_lite/lib/include/environment/freertos
+    ${SDK_ROOT_PATH}/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33
+    ${ProjDirPath}/../01_DEV/M2_BSP/rpmsg
 )
 
 # target_compile_definitions(exp_sdk_common INTERFACE DEBUG USE_UART_LOG)

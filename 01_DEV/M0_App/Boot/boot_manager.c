@@ -11,6 +11,9 @@
 #include "boot_manager.h"
 #include "OS/Kernel/rtos.h"
 #include "DateTime/date_time.h"
+#include "CRC/crc16_xmodem.h"
+#include "remoteproc/m33_remoteproc.h"
+#include "rpmsg/m33_rpmsg.h"
 /*============================================================*/
 /*                      Defines                               */
 /*============================================================*/
@@ -32,7 +35,11 @@
 /*============================================================*/
 
 Std_ReturnType BootManager_SystemInit(void){
+    M33_RPROC_Init();
     Utils_SoftTime_Init();
+    CRC16_XMODEM_Init();
+    M33_RPMSG_Init();
+
     return E_OK;
 }
 

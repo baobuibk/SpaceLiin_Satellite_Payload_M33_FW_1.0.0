@@ -1,0 +1,202 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/02_OUTPUT/debug/M0_App"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -DDEBUG     -DCPU_MIMX9352DVUXM_cm33     -DMCUXPRESSO_SDK     -DSERIAL_PORT_TYPE_UART=1     -DSDK_OS_FREE_RTOS     -g     -O0     -mcpu=cortex-m33     -Wall     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M0_App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M1_SysApp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M3_Devices"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M4_Middlewares"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M5_Utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M6_Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M7_Tests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../Core/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/utilities/debug_console"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/devices/MIMX9352/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/serial_manager"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/uart"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/lists"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP/rpmsg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "M0_App::@3c5f802263a7726b2aea",
+	"name" : "M0_App",
+	"nameOnDisk" : "M0_App",
+	"paths" : 
+	{
+		"build" : "M0_App",
+		"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/Boot/boot_manager.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Kernel/rtos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M0_App/OS/Task/rtos_tasks.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

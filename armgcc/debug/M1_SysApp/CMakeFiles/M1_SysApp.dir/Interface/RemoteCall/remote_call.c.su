@@ -1,0 +1,4 @@
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/RemoteCall/remote_call.c:37:6:RemoteCall_UpdateRemoteAddr	16	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/RemoteCall/remote_call.c:42:16:RemoteCall_SendResponse	32	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/RemoteCall/remote_call.c:83:16:RemoteCall_SendCommand	32	static
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/RemoteCall/remote_call.c:124:16:RemoteCall_SendFileRequest	32	static

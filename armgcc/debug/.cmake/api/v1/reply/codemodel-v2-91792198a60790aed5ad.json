@@ -26,7 +26,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -68,7 +68,11 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
+					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP",
+					"targetIndexes" : 
+					[
+						2
+					]
 				},
 				{
 					"build" : "M3_Devices",
@@ -104,7 +108,7 @@
 					"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M5_Utils",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -152,7 +156,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -161,28 +166,35 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "M0_App::@3c5f802263a7726b2aea",
-					"jsonFile" : "target-M0_App-debug-37110e6c054eb480dd5b.json",
+					"jsonFile" : "target-M0_App-debug-64d8671444108aa873df.json",
 					"name" : "M0_App",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "M1_SysApp::@cc8d073ca17c942e8d85",
-					"jsonFile" : "target-M1_SysApp-debug-cb40226857460a085401.json",
+					"jsonFile" : "target-M1_SysApp-debug-318a202afda58484a5fa.json",
 					"name" : "M1_SysApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "M2_BSP::@c7c7e4dc1c2dfa017d26",
+					"jsonFile" : "target-M2_BSP-debug-8306325ff592c9c0bb6c.json",
+					"name" : "M2_BSP",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "M5_Utils::@10c15188ed875b4781a5",
-					"jsonFile" : "target-M5_Utils-debug-328c7be9cf4fc7ab499c.json",
+					"jsonFile" : "target-M5_Utils-debug-cd916bf7ee5376bea362.json",
 					"name" : "M5_Utils",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "payexp_m33.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-payexp_m33.elf-debug-fefe7994b1bf79697e4f.json",
+					"jsonFile" : "target-payexp_m33.elf-debug-e3fd474fb3d008e102c0.json",
 					"name" : "payexp_m33.elf",
 					"projectIndex" : 0
 				}

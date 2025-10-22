@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/02_OUTPUT/debug/M1_SysApp"
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/02_OUTPUT/debug/M2_BSP"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/CMakeLists.txt"
+			"F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -33,13 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 11,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 16,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -57,7 +57,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp"
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M0_App"
 				},
 				{
 					"backtrace" : 2,
@@ -65,7 +69,27 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M3_Devices"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M4_Middlewares"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M5_Utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M6_Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M7_Tests"
 				},
 				{
 					"backtrace" : 2,
@@ -106,23 +130,40 @@
 				{
 					"backtrace" : 3,
 					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/components/lists"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "f:/F00_Workspace/03_SATEXP_IMX93/A03_SDK/SDK_2_14_0_MIMX9352xxxxK/middleware/multicore/rpmsg_lite/lib/include/platform/imx93_m33"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/../01_DEV/M2_BSP/rpmsg"
 				}
 			],
 			"language" : "C",
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
-	"id" : "M1_SysApp::@cc8d073ca17c942e8d85",
-	"name" : "M1_SysApp",
-	"nameOnDisk" : "M1_SysApp",
+	"id" : "M2_BSP::@c7c7e4dc1c2dfa017d26",
+	"name" : "M2_BSP",
+	"nameOnDisk" : "M2_BSP",
 	"paths" : 
 	{
-		"build" : "M1_SysApp",
-		"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp"
+		"build" : "M2_BSP",
+		"source" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP"
 	},
 	"sourceGroups" : 
 	[
@@ -131,7 +172,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -140,13 +182,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Interface/SimpleShell/simple_shell.c",
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP/remoteproc/m33_remoteproc.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M1_SysApp/Services/cmdline.c",
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP/remoteproc/rsc_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/01_DEV/M2_BSP/rpmsg/m33_rpmsg.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -92,8 +92,14 @@ set(PROJECT_SDK_INCLUDE_DIRS
 )
 
 set(PROJECT_GLOBAL_INCLUDE_DIRS
+    ${ProjDirPath}/../01_DEV/M0_App
     ${ProjDirPath}/../01_DEV/M1_SysApp
+    ${ProjDirPath}/../01_DEV/M2_BSP 
+    ${ProjDirPath}/../01_DEV/M3_Devices
+    ${ProjDirPath}/../01_DEV/M4_Middlewares
     ${ProjDirPath}/../01_DEV/M5_Utils
+    ${ProjDirPath}/../01_DEV/M6_Tools
+    ${ProjDirPath}/../01_DEV/M7_Tests
     ${PROJECT_SDK_INCLUDE_DIRS} 
 )
 

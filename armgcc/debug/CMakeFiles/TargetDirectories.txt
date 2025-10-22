@@ -7,6 +7,7 @@ F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M0_Ap
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M1_SysApp/CMakeFiles/M1_SysApp.dir
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M1_SysApp/CMakeFiles/edit_cache.dir
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M1_SysApp/CMakeFiles/rebuild_cache.dir
+F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M2_BSP/CMakeFiles/M2_BSP.dir
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M2_BSP/CMakeFiles/edit_cache.dir
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M2_BSP/CMakeFiles/rebuild_cache.dir
 F:/F00_Workspace/03_SATEXP_IMX93/A04_Project/AF_IPCDEV/payexp/armgcc/debug/M3_Devices/CMakeFiles/edit_cache.dir

@@ -17,6 +17,7 @@
  * Prototypes
  ******************************************************************************/
 static void IMX_LPTMP1_Init(void);
+static void IMX_MU_Init(void);
 /*******************************************************************************
  * Code
  ******************************************************************************/
@@ -32,6 +33,7 @@ int main(void)
     BOARD_InitDebugConsole();
     /* Initialize all configured peripherals */
     IMX_LPTMP1_Init();
+    IMX_MU_Init();
 
     /* USER CODE BEGIN */
     PRINTF("\r\n\r\n== Pay-Exp Core M33 App Start ==\r\n");
@@ -92,4 +94,11 @@ static void IMX_LPTMP1_Init(void)
 
     /* Start counting */
     LPTMR_StartTimer(LPTMR1);
+}
+
+static void IMX_MU_Init(void)
+{
+    /* Enable the MU clock */
+    CLOCK_EnableClock(kCLOCK_Mu_A);
+    CLOCK_EnableClock(kCLOCK_Mu_B);
 }
