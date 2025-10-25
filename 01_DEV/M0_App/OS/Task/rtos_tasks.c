@@ -105,7 +105,12 @@ static void Shell_Task(void *pvParameters)
     {
         // char c = GETCHAR();     
         // Shell_ReceiveChar(c);   
-        vTaskDelay(pdMS_TO_TICKS(1));   
+        vTaskDelay(pdMS_TO_TICKS(5000));   
+        Shell_WriteString("Sending ping to A55...\r\n");
+        if (RemoteCall_SendCommand("a55_ping\n") == E_OK)
+        {
+            Shell_WriteString("Ping sent\r\n");
+        }
     }
 }
 
